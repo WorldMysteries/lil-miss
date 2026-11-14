@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дело Lil' Miss — Документальный архив 1988–2004</title>
+    <meta
+      name="description"
+      content="Интерактивный документальный архив расследования убийства Лизы Мари Киммелл («Lil' Miss»): хронология, карта маршрута по Вайомингу, вещественные доказательства и судебный итог."
+    />
+    <meta property="og:title" content="Дело Lil' Miss — Документальный архив 1988–2004" />
+    <meta
+      property="og:description"
+      content="Интерактивный документальный архив расследования убийства Лизы Мари Киммелл («Lil' Miss»): хронология, карта маршрута по Вайомингу, вещественные доказательства и судебный итог."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css.css" />
+  </head>
+  <body>
+    <div class="reading-progress" aria-hidden="true">
+      <div class="reading-progress-bar" id="readingProgressBar"></div>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand-wordmark">Архив · Lil’ Miss</a>
+
+        <nav class="site-nav" aria-label="Разделы досье">
+          <a href="#chronology" class="nav-link">Хронология</a>
+          <a href="#route" class="nav-link">Маршрут</a>
+          <a href="#evidence" class="nav-link">Улики</a>
+          <a href="#verdict" class="nav-link">Приговор</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#route" class="btn-primary">Карта маршрута</a>
+          <button
+            type="button"
+            class="mobile-menu-btn"
+            id="mobileMenuBtn"
+            aria-expanded="false"
+            aria-controls="mobileNavDrawer"
+            aria-label="Открыть меню навигации"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+              <line x1="3" y1="7" x2="21" y2="7"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="17" x2="21" y2="17"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-nav-drawer" id="mobileNavDrawer" hidden>
+        <nav class="container mobile-nav-links" aria-label="Мобильная навигация">
+          <a href="#chronology" class="mobile-nav-link">Хронология</a>
+          <a href="#route" class="mobile-nav-link">Маршрут</a>
+          <a href="#evidence" class="mobile-nav-link">Улики</a>
+          <a href="#verdict" class="mobile-nav-link">Приговор</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Exhibition Marquee -->
+      <section class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="archival-kicker">
+              <span>Архивное досье</span>
+              <span aria-hidden="true">·</span>
+              <span>Вайоминг, 1988–2004</span>
+              <span aria-hidden="true">·</span>
+              <span>Лиза Мари Киммелл</span>
+            </p>
+            <h1 class="hero-title">Тайна номерного знака «LIL MISS»</h1>
+            <p class="hero-lead">
+              Весной 1988 года восемнадцатилетняя Лиза Мари Киммелл выехала из Денвера в Коди на чёрном Honda CR-X Si с именным номером «LIL MISS». Её автомобиль исчез на четырнадцать лет — пока анализ ДНК не указал на уединённое владение в пустынном Монете.
+            </p>
+            <div class="hero-cta-row">
+              <a href="#chronology" class="btn-primary">Изучить хронологию</a>
+              <a href="#evidence" class="btn-secondary">Смотреть материалы дела</a>
+            </div>
+          </div>
+
+          <figure class="hero-media">
+            <div class="media-frame media-frame-16x9">
+              <img
+                src="/src/assets/images/hero_wyoming_highway_1794674737795.jpg"
+                alt="Пустынное двухполосное шоссе в Вайоминге на закате в конце марта"
+                referrerpolicy="no-referrer"
+                class="archival-img zoomable-img"
+                data-caption="Рис. 1 — Трасса в центральной части Вайоминга, аналогичная участку между Орин-Джанкшен и Каспером в сумерках конца марта."
+              />
+              <div class="img-fallback" aria-hidden="true">
+                <span>Архивный снимок · Шоссе Вайоминга, март 1988</span>
+              </div>
+            </div>
+            <figcaption class="figure-caption">
+              Рис. 1 — Высокогорные равнины Вайоминга в сумерках. Последний подтверждённый контакт с Лизой зафиксирован на трассе I-25 у Орин-Джанкшен.
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- Operational Summary Ribbon -->
+        <div class="container">
+          <dl class="dossier-ribbon">
+            <div class="ribbon-item">
+              <dt>Потерпевшая</dt>
+              <dd>Лиза Мари Киммелл (18 лет)</dd>
+            </div>
+            <div class="ribbon-item">
+              <dt>Исчезновение</dt>
+              <dd class="tabular-nums">25 марта 1988 г.</dd>
+            </div>
+            <div class="ribbon-item">
+              <dt>Прорыв следствия</dt>
+              <dd class="tabular-nums">Июль 2002 г. (CODIS)</dd>
+            </div>
+            <div class="ribbon-item">
+              <dt>Вердикт суда</dt>
+              <dd class="tabular-nums">2004 г. · Дейл Уэйн Итон</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- Editorial Essay Intro -->
+      <section class="section-block section-paper">
+        <div class="container essay-layout">
+          <div class="essay-main">
+            <p class="section-index">01. Контекст дела</p>
+            <h2 class="section-title">Восемь дней тишины на равнинах Вайоминга</h2>
+            <p class="prose drop-cap">
+              Лиза Мари Киммелл родилась 18 июля 1969 года и выросла в Биллингсе, штат Монтана. Весной 1988 года она работала в Денвере, штат Колорадо, и в пятницу, 25 марта, отправилась в Коди, где её ждал молодой человек Эд Яроч. Вся страна запомнила это дело по чёрному купе Honda CR-X Si, на заднем бампере которого красовался именной номерной знак Монтаны «LIL MISS» — семейное прозвище Лизы.
+            </p>
+            <p class="prose">
+              Поздно вечером 25 марта патрульный дорожной полиции Вайоминга остановил Лизу за превышение скорости неподалёку от Орин-Джанкшен. Видеозапись и протокол этой остановки стали последним достоверным свидетельством того, что девушка жива. До Коди оставалось несколько часов пути по малонаселённым трассам, но там она так и не появилась.
+            </p>
+            <blockquote class="editorial-quote">
+              «На протяжении четырнадцати лет очевидцы сообщали о чёрном автомобиле с номером “LIL MISS” от Калифорнии до Канады — в то время как машина была зарыта в земле в нескольких милях от места преступления».
+            </blockquote>
+            <p class="prose">
+              Второго апреля 1988 года рыбак обнаружил тело Лизы в ледяной воде реки Норт-Платт неподалёку от старого Правительственного моста (Old Government Bridge) к юго-западу от Каспера. Судебно-медицинская экспертиза установила, что девушку удерживали в неволе около шести суток, подвергали насилию и убили у реки. Несмотря на сюжет в программе <em>Unsolved Mysteries</em> и тысячи отработанных версий, дело оставалось нераскрытым до эпохи федеральной базы ДНК.
+            </p>
+          </div>
+
+          <aside class="essay-margin" aria-label="Справочные заметки на полях">
+            <div class="margin-note">
+              <p class="margin-label">Паспортные данные</p>
+              <dl class="spec-list">
+                <div class="spec-row">
+                  <dt>Дата рождения</dt>
+                  <dd class="tabular-nums">18.07.1969</dd>
+                </div>
+                <div class="spec-row">
+                  <dt>Место жительства</dt>
+                  <dd>Денвер, Колорадо</dd>
+                </div>
+                <div class="spec-row">
+                  <dt>Пункт назначения</dt>
+                  <dd>Коди, Вайоминг</dd>
+                </div>
+                <div class="spec-row">
+                  <dt>Автомобиль</dt>
+                  <dd>Honda CR-X Si, 1988</dd>
+                </div>
+                <div class="spec-row">
+                  <dt>Номерной знак</dt>
+                  <dd class="mono-inline">LIL MISS (MT)</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div class="margin-note">
+              <p class="margin-label">Примечание архива</p>
+              <p class="margin-text">
+                Изложение основано на материалах судебных разбирательств штата Вайоминг, архивах округа Натрона и федеральных апелляционных документах по делу «Штат Вайоминг против Дейла Уэйна Итона».
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Section 02: Interactive Chronology -->
+      <section class="section-block" id="chronology">
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-index">02. Хронология расследования</p>
+              <h2 class="section-title">От исчезновения до приговора (1988–2022)</h2>
+            </div>
+
+            <div class="filter-bar" role="tablist" aria-label="Фильтр этапов расследования">
+              <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">
+                Все этапы
+              </button>
+              <button type="button" class="filter-btn" data-filter="1988" role="tab" aria-selected="false">
+                Март–апрель 1988
+              </button>
+              <button type="button" class="filter-btn" data-filter="cold" role="tab" aria-selected="false">
+                Годы поисков
+              </button>
+              <button type="button" class="filter-btn" data-filter="dna" role="tab" aria-selected="false">
+                Прорыв 2002
+              </button>
+              <button type="button" class="filter-btn" data-filter="trial" role="tab" aria-selected="false">
+                Суд и итог
+              </button>
+            </div>
+          </div>
+
+          <div class="timeline-grid" id="timelineGrid">
+            <article class="timeline-card" data-phase="1988">
+              <div class="timeline-meta">
+                <span class="mono-date tabular-nums">25 марта 1988 · ~15:00</span>
+                <span aria-hidden="true">·</span>
+                <span>Денвер, Колорадо</span>
+              </div>
+              <h3 class="timeline-title">Выезд на север по трассе I-25</h3>
+              <p class="timeline-body">
+                Лиза выезжает из Денвера на новом чёрном Honda CR-X Si, планируя добраться до Биллингса через Коди. По пути она заезжает к родственникам и продолжает дорогу в сторону границы Вайоминга.
+              </p>
+            </article>
+
+            <article class="timeline-card" data-phase="1988">
+              <div class="timeline-meta">
+                <span class="mono-date tabular-nums">25 марта 1988 · ~21:14</span>
+                <span aria-hidden="true">·</span>
+                <span>Орин-Джанкшен, Вайоминг</span>
+              </div>
+              <h3 class="timeline-title">Остановка патрулём за превышение скорости</h3>
+              <p class="timeline-body">
+                Патрульный Алан Конечни останавливает CR-X на скорости 88 миль/ч. Проверка документов проходит спокойно; регистратор фиксирует голос Лизы — это последняя официальная запись, где она жива.
+              </p>
+            </article>
+
+            <article class="timeline-card" data-phase="1988">
+              <div class="timeline-meta">
+                <span class="mono-date tabular-nums">26 марта — 1 апреля 1988</span>
+                <span aria-hidden="true">·</span>
+                <span>Монета, округ Фримонт</span>
+              </div>
+              <h3 class="timeline-title">Похищение и удержание в изоляции</h3>
+              <p class="timeline-body">
+                Дальнейшая реконструкция показала, что Лиза была перехвачена Дейлом Уэйном Итоном и доставлена на его удалённый участок в Монете, где рядом со старым школьным автобусом удерживалась около шести дней.
+              </p>
+            </article>
+
+            <article class="timeline-card" data-phase="1988">
+              <div class="timeline-meta">
+                <span class="mono-date tabular-nums">2 апреля 1988 · День</span>
+                <span aria-hidden="true">·</span>
+                <span>Норт-Платт, близ Каспера</span>
+              </div>
+              <h3 class="timeline-title">Обнаружение тела у Правительственного моста</h3>
+              <p class="timeline-body">
+                Рыбак замечает тело девушки у берега реки Норт-Платт ниже старого стального моста. Следователи фиксируют следы насильственной смерти и удары ножом, но автомобиль Лизы бесследно исчезает.
+              </p>
+            </article>
+
+            <article class="timeline-card" data-phase="cold">
+              <div class="timeline-meta">
+                <span class="mono-date tabular-nums">1989 — 2001</span>
+                <span aria-hidden="true">·</span>
+                <span>США и Канада</span>
+              </div>
+              <h3 class="timeline-title">Четырнадцать лет ложных следов</h3>
+              <p class="timeline-body">
+                Телепередача <em>Unsolved Mysteries</em> делает номер «LIL MISS» известным всей стране. Семья Киммелл и полиция проверяют сотни сообщений о чёрном Honda CR-X, но ни одна наводка не подтверждается.
+              </p>
+            </article>
+
+            <article class="timeline-card" data-phase="dna">
+              <div class="timeline-meta">
+                <span class="mono-date tabular-nums">Июль 2002</span>
+                <span aria-hidden="true">·</span>
+                <span>Лаборатория CODIS</span>
+              </div>
+              <h3 class="timeline-title">Совпадение ДНК в федеральной базе</h3>
+              <p class="timeline-body">
+                Сохранённый в 1988 году биологический образец загружают в национальную систему CODIS. Профиль совпадает с ДНК Дейла Уэйна Итона, отбывающего срок в Колорадо за нападение с оружием.
+              </p>
+            </article>
+
+            <article class="timeline-card" data-phase="dna">
+              <div class="timeline-meta">
+                <span class="mono-date tabular-nums">Август 2002</span>
+                <span aria-hidden="true">·</span>
+                <span>Участок в Монете</span>
+              </div>
+              <h3 class="timeline-title">Раскопки и найденный Honda CR-X</h3>
+              <p class="timeline-body">
+                При обыске территории Итона следователи замечают просадку грунта и выкапывают глубокую траншею. Под слоем земли обнаруживают распиленный пополам, но сохранивший ключевые детали чёрный Honda CR-X Лизы.
+              </p>
+            </article>
+
+            <article class="timeline-card" data-phase="trial">
+              <div class="timeline-meta">
+                <span class="mono-date tabular-nums">Март 2004 — 2022</span>
+                <span aria-hidden="true">·</span>
+                <span>Округ Натрона, Вайоминг</span>
+              </div>
+              <h3 class="timeline-title">Приговор, земля Монеты и финал</h3>
+              <p class="timeline-body">
+                В 2004 году присяжные признают Итона виновным и выносят смертный приговор. Родители Лизы отсуживают участок в Монете и сжигают постройки в память о дочери. Позже смертная казнь заменяется пожизненным заключением.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 03: Interactive Route Map -->
+      <section class="section-block section-paper" id="route">
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-index">03. География дела</p>
+              <h2 class="section-title">Интерактивная схема маршрута и ключевых точек</h2>
+            </div>
+            <p class="section-subtitle">
+              Выберите узел на карте, чтобы сверить координаты, дистанцию и показания следствия.
+            </p>
+          </div>
+
+          <div class="route-workspace">
+            <div class="map-panel" role="region" aria-label="Схематичная карта маршрута 1988 года">
+              <svg
+                viewBox="0 0 760 440"
+                class="wyoming-map-svg"
+                role="img"
+                aria-label="Схема дорог Колорадо и Вайоминга с ключевыми точками дела Lil' Miss"
+              >
+                <defs>
+                  <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(28, 25, 23, 0.06)" stroke-width="1" />
+                  </pattern>
+                </defs>
+                <rect width="760" height="440" fill="#FBF9F5" />
+                <rect width="760" height="440" fill="url(#gridPattern)" />
+
+                <!-- State border line WY / CO -->
+                <line x1="40" y1="335" x2="720" y2="335" stroke="rgba(28, 25, 23, 0.25)" stroke-width="1.2" stroke-dasharray="6 5" />
+                <text x="58" y="325" class="map-state-label">ШТАТ ВАЙОМИНГ</text>
+                <text x="58" y="355" class="map-state-label">ШТАТ КОЛОРАДО</text>
+
+                <!-- North Platte River stylized curve -->
+                <path
+                  d="M 650 310 C 590 280, 520 265, 455 245 C 390 225, 360 275, 320 295"
+                  fill="none"
+                  stroke="#6B8BA4"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  opacity="0.65"
+                />
+                <text x="485" y="295" class="map-river-label">р. Норт-Платт</text>
+
+                <!-- Planned Route (dashed): Denver -> Orin -> Casper -> Cody -->
+                <path
+                  d="M 595 390 L 575 268 L 435 232 L 195 105"
+                  fill="none"
+                  stroke="rgba(28, 25, 23, 0.28)"
+                  stroke-width="2"
+                  stroke-dasharray="5 5"
+                />
+
+                <!-- Actual Investigated Corridor: Denver -> Orin -> Casper -> Government Bridge -> Moneta -->
+                <path
+                  d="M 595 390 L 575 268 L 435 232 L 408 258 L 285 198"
+                  fill="none"
+                  stroke="#8C2D19"
+                  stroke-width="2.5"
+                />
+
+                <!-- Highway labels -->
+                <text x="598" y="318" class="map-road-label">I-25 N</text>
+                <text x="330" y="196" class="map-road-label">US-20 / 26</text>
+
+                <!-- Interactive Waypoints -->
+                <g class="map-node is-selected" data-stop="denver" tabindex="0" role="button" aria-label="Денвер, отправная точка">
+                  <circle cx="595" cy="390" r="14" class="node-halo" />
+                  <circle cx="595" cy="390" r="6" class="node-core" />
+                  <text x="612" y="394" class="node-label">1. Денвер (Старт)</text>
+                </g>
+
+                <g class="map-node" data-stop="orin" tabindex="0" role="button" aria-label="Орин-Джанкшен, остановка патрулём">
+                  <circle cx="575" cy="268" r="14" class="node-halo" />
+                  <circle cx="575" cy="268" r="6" class="node-core" />
+                  <text x="592" y="264" class="node-label">2. Орин-Джанкшен</text>
+                </g>
+
+                <g class="map-node" data-stop="bridge" tabindex="0" role="button" aria-label="Правительственный мост, место обнаружения">
+                  <circle cx="408" cy="258" r="14" class="node-halo" />
+                  <circle cx="408" cy="258" r="6" class="node-core" />
+                  <text x="424" y="274" class="node-label">3. Правительственный мост</text>
+                </g>
+
+                <g class="map-node" data-stop="moneta" tabindex="0" role="button" aria-label="Монета, владение Итона">
+                  <circle cx="285" cy="198" r="14" class="node-halo" />
+                  <circle cx="285" cy="198" r="6" class="node-core" />
+                  <text x="160" y="192" class="node-label">4. Монета (Участок Итона)</text>
+                </g>
+
+                <g class="map-node" data-stop="cody" tabindex="0" role="button" aria-label="Коди, планируемый пункт назначения">
+                  <circle cx="195" cy="105" r="14" class="node-halo" />
+                  <circle cx="195" cy="105" r="6" class="node-core node-planned" />
+                  <text x="212" y="109" class="node-label">5. Коди (Цель пути)</text>
+                </g>
+              </svg>
+            </div>
+
+            <div class="stop-inspector" id="stopInspector" aria-live="polite">
+              <div class="stop-selector-list" role="tablist" aria-label="Список точек маршрута">
+                <button type="button" class="stop-tab is-active" data-stop="denver" role="tab" aria-selected="true">01. Денвер</button>
+                <button type="button" class="stop-tab" data-stop="orin" role="tab" aria-selected="false">02. Орин-Джанкшен</button>
+                <button type="button" class="stop-tab" data-stop="bridge" role="tab" aria-selected="false">03. Мост у Каспера</button>
+                <button type="button" class="stop-tab" data-stop="moneta" role="tab" aria-selected="false">04. Монета</button>
+                <button type="button" class="stop-tab" data-stop="cody" role="tab" aria-selected="false">05. Коди</button>
+              </div>
+
+              <div class="stop-detail-body">
+                <p class="stop-coords tabular-nums" id="stopCoords">39.7392° N, 104.9903° W · 0 миль от старта</p>
+                <h3 class="stop-title" id="stopTitle">Денвер, Колорадо — Отправление</h3>
+                <p class="stop-desc" id="stopDesc">
+                  Днём 25 марта 1988 года Лиза Киммелл выехала из Денвера на север по трассе I-25. Она собиралась заехать в Коди к своему молодому человеку Эду Ярочу и далее направиться к родителям в Биллингс.
+                </p>
+                <dl class="stop-facts">
+                  <div class="spec-row">
+                    <dt>Статус точки</dt>
+                    <dd id="stopStatus">Подтверждённый старт</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>Ключевой документ</dt>
+                    <dd id="stopArtifact">Показания близких и чеки заправки</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 04: Physical Evidence & Archival Exhibits -->
+      <section class="section-block" id="evidence">
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-index">04. Вещественные доказательства</p>
+              <h2 class="section-title">Ключевые экспонаты архива дела</h2>
+            </div>
+
+            <div class="filter-bar" role="tablist" aria-label="Выбор экспоната">
+              <button type="button" class="exhibit-tab is-active" data-exhibit="crx" role="tab" aria-selected="true">
+                Экспонат A · Honda CR-X
+              </button>
+              <button type="button" class="exhibit-tab" data-exhibit="bridge" role="tab" aria-selected="false">
+                Экспонат B · Мост и река
+              </button>
+              <button type="button" class="exhibit-tab" data-exhibit="dossier" role="tab" aria-selected="false">
+                Экспонат C · Материалы ДНК
+              </button>
+            </div>
+          </div>
+
+          <!-- Exhibit Panels (all images live in DOM so Vite bundles cleanly & zero broken frames) -->
+          <div class="exhibit-stage">
+            <article class="exhibit-panel is-active" id="exhibit-crx">
+              <figure class="exhibit-figure">
+                <div class="media-frame media-frame-4x3">
+                  <img
+                    src="/src/assets/images/evidence_honda_crx_1794674737787.jpg"
+                    alt="Чёрный Honda CR-X Si конца 1980-х годов на гравийной обочине в гористой местности"
+                    referrerpolicy="no-referrer"
+                    class="archival-img zoomable-img"
+                    data-caption="Экспонат A — Реконструкция автомобиля Honda CR-X Si 1988 года. Оригинальная машина Лизы была выкопана на участке в Монете в августе 2002 года."
+                  />
+                  <div class="img-fallback" aria-hidden="true">
+                    <span>Экспонат A · Honda CR-X Si 1988</span>
+                  </div>
+                </div>
+                <figcaption class="figure-caption">
+                  Экспонат A — Чёрный 1988 Honda CR-X Si. Кликните по снимку для детального просмотра.
+                </figcaption>
+              </figure>
+
+              <div class="exhibit-details">
+                <p class="exhibit-code tabular-nums">Опись № 01-CRX · Захоронена в 1988 г. / Извлечена в 2002 г.</p>
+                <h3 class="exhibit-title">Автомобиль с номером «LIL MISS»</h3>
+                <p class="prose">
+                  Почти полтора десятилетия полиция исходила из того, что преступник перегнал машину в другой штат или перепродал по запчастям. В реальности Дейл Итон вырыл экскаватором глубокую яму на своей земле в Монете, разрезал кузов и засыпал автомобиль грунтом.
+                </p>
+                <dl class="spec-list">
+                  <div class="spec-row">
+                    <dt>Модель и год</dt>
+                    <dd>Honda CR-X Si, 1988</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>Значение для суда</dt>
+                    <dd>Прямое вещественное доказательство связи Итона с похищением</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>Личные вещи</dt>
+                    <dd>Магнитола, чехлы и фрагменты багажа сохранились в грунте</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="exhibit-panel" id="exhibit-bridge" hidden>
+              <figure class="exhibit-figure">
+                <div class="media-frame media-frame-16x9">
+                  <img
+                    src="/src/assets/images/archival_bridge_river_1794674738378.jpg"
+                    alt="Старый стальной ферменный мост через холодную реку в сухой степи Вайоминга"
+                    referrerpolicy="no-referrer"
+                    class="archival-img zoomable-img"
+                    data-caption="Экспонат B — Стальной ферменный мост через реку Норт-Платт. Тело Лизы Киммелл было обнаружено рыбаком 2 апреля 1988 года."
+                  />
+                  <div class="img-fallback" aria-hidden="true">
+                    <span>Экспонат B · Старый Правительственный мост</span>
+                  </div>
+                </div>
+                <figcaption class="figure-caption">
+                  Экспонат B — Переправа через Норт-Платт (район Old Government Bridge). Кликните для увеличения.
+                </figcaption>
+              </figure>
+
+              <div class="exhibit-details">
+                <p class="exhibit-code tabular-nums">Опись № 02-NPR · Обнаружено 2 апреля 1988 г.</p>
+                <h3 class="exhibit-title">Старый Правительственный мост на Норт-Платт</h3>
+                <p class="prose">
+                  Малоиспользуемая переправа к юго-западу от Каспера находилась вдали от основных туристических трасс. Именно сюда убийца привёз девушку через шесть дней после похищения. В этот же день уровень воды помог прохожему рыбаку заметить тело у берега.
+                </p>
+                <dl class="spec-list">
+                  <div class="spec-row">
+                    <dt>Локация</dt>
+                    <dd>Округ Натрона, р. Норт-Платт</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>Значение для дела</dt>
+                    <dd>Криминалисты сохранили образцы биологического материала для будущей ДНК-экспертизы</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>Критический фактор</dt>
+                    <dd>Своевременная заморозка образцов в 1988 г. сделала возможным тест 2002 года</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+
+            <article class="exhibit-panel" id="exhibit-dossier" hidden>
+              <figure class="exhibit-figure">
+                <div class="media-frame media-frame-4x3">
+                  <img
+                    src="/src/assets/images/archival_case_file_1794674739245.jpg"
+                    alt="Следственные папки, дорожная карта Вайоминга 1988 года и увеличительное стекло на столе"
+                    referrerpolicy="no-referrer"
+                    class="archival-img zoomable-img"
+                    data-caption="Экспонат C — Архивные материалы нераскрытых дел и дорожная карта Вайоминга, применявшаяся при сверке маршрутов."
+                  />
+                  <div class="img-fallback" aria-hidden="true">
+                    <span>Экспонат C · Протоколы и база CODIS</span>
+                  </div>
+                </div>
+                <figcaption class="figure-caption">
+                  Экспонат C — Архив документов и карт маршрутов 1988–2002 гг. Кликните по снимку для просмотра.
+                </figcaption>
+              </figure>
+
+              <div class="exhibit-details">
+                <p class="exhibit-code tabular-nums">Опись № 03-DNA · Совпадение CODIS, 2002 г.</p>
+                <h3 class="exhibit-title">Экспертиза CODIS и ложные наводки</h3>
+                <p class="prose">
+                  В 1988 году профилирование ДНК в уголовном судопроизводстве США только зарождалось. Лишь в 2002 году национальная база CODIS объединила архивный образец из Вайоминга с данными заключённого Дейла Итона, уличённого в другом преступлении в Колорадо.
+                </p>
+                <dl class="spec-list">
+                  <div class="spec-row">
+                    <dt>Метод прорыва</dt>
+                    <dd>Ядерная ДНК-экспертиза (STR-профиль)</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>Подозреваемый</dt>
+                    <dd>Дейл Уэйн Итон (на момент ареста — 57 лет)</dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt>Дополнительная проверка</dt>
+                    <dd>Сверка с нераскрытыми исчезновениями вдоль коридора I-25</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 05: Verdict & Myths vs Facts Comparison -->
+      <section class="section-block section-paper" id="verdict">
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <p class="section-index">05. Судебный итог и проверка фактов</p>
+              <h2 class="section-title">Версии 1988–2001 годов против установленных фактов</h2>
+            </div>
+
+            <div class="filter-bar" role="group" aria-label="Режим сравнения версий">
+              <button type="button" class="compare-btn is-active" data-compare="both">Сравнить оба столбца</button>
+              <button type="button" class="compare-btn" data-compare="myths">Только слухи 1990-х</button>
+              <button type="button" class="compare-btn" data-compare="facts">Только факты суда</button>
+            </div>
+          </div>
+
+          <div class="comparison-table-wrap">
+            <table class="comparison-table" id="comparisonTable">
+              <thead>
+                <tr>
+                  <th scope="col">Вопрос следствия</th>
+                  <th scope="col" class="col-myths">Ранние гипотезы (1988–2001)</th>
+                  <th scope="col" class="col-facts">Установлено судом (2002–2004)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Судьба автомобиля Honda CR-X</td>
+                  <td class="col-myths">Считалось, что машину перекрасили или угнали в другой штат; фиксировались сотни «ложных встреч» с номером LIL MISS.</td>
+                  <td class="col-facts">Машина никуда не уезжала за пределы центрального Вайоминга: Итон закопал её на собственном участке в Монете.</td>
+                </tr>
+                <tr>
+                  <td>Место преступления</td>
+                  <td class="col-myths">Предполагалась случайная встреча у трассы в районе Каспера или по пути на север сразу после штрафа.</td>
+                  <td class="col-facts">Лизу удерживали около шести дней в уединённой постройке (рядом со школьным автобусом) на участке Итона в Монете.</td>
+                </tr>
+                <tr>
+                  <td>Идентификация преступника</td>
+                  <td class="col-myths">Подозревали серийного убийцу «с трасс» без привязки к местным жителям округа Фримонт.</td>
+                  <td class="col-facts">ДНК-совпадение в базе CODIS 2002 года однозначно указало на местного сварщика-отшельника Дейла Уэйна Итона.</td>
+                </tr>
+                <tr>
+                  <td>Судебное решение и судьба земли</td>
+                  <td class="col-myths">Долгие годы дело оставалось холодным архивом без единого обвиняемого.</td>
+                  <td class="col-facts">В 2004 г. присяжные признали Итона виновным; родители Лизы выиграли гражданский иск, получили землю в Монете и сожгли постройки в 2005 г.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Memorial & Legal Epilogue Grid -->
+          <div class="epilogue-grid">
+            <div class="epilogue-card">
+              <p class="epilogue-label tabular-nums">Март 2004 г.</p>
+              <h3 class="epilogue-title">Обвинительный вердикт</h3>
+              <p class="prose-sm">
+                Суд присяжных округа Натрона признал Дейла Уэйна Итона виновным в умышленном убийстве первой степени, похищении при отягчающих обстоятельствах, сексуальном насилии и ограблении.
+              </p>
+            </div>
+            <div class="epilogue-card">
+              <p class="epilogue-label tabular-nums">Июль 2005 г.</p>
+              <h3 class="epilogue-title">Прекращение памяти о лагере в Монете</h3>
+              <p class="prose-sm">
+                Рон и Шейла Киммелл, получившие участок Итона по решению гражданского суда, в день 36-летия Лизы предали огню ветхие постройки в Монете, поставив символический знак окончания многолетнего поиска.
+              </p>
+            </div>
+            <div class="epilogue-card">
+              <p class="epilogue-label tabular-nums">2014–2022 гг.</p>
+              <h3 class="epilogue-title">Пересмотр меры наказания</h3>
+              <p class="prose-sm">
+                Федеральный суд отменил смертный приговор из-за процессуальных ошибок адвоката защиты на этапе назначения наказания, оставив при этом сам обвинительный вердикт в силе. Приговор был заменён на пожизненное заключение.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-brand">Архивное досье «Lil’ Miss» · Памяти Лизы Мари Киммелл (1969–1988)</p>
+        <div class="footer-links">
+          <a href="#top">Наверх</a>
+          <a href="#chronology">Хронология</a>
+          <a href="#route">Маршрут</a>
+          <a href="#evidence">Улики</a>
+          <button type="button" class="footer-export-btn" id="downloadHtmlBtn">Скачать HTML-файл</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Accessible Image Lightbox Modal -->
+    <div class="lightbox-backdrop" id="lightboxModal" role="dialog" aria-modal="true" aria-labelledby="lightboxCaption" hidden>
+      <div class="lightbox-dialog">
+        <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Закрыть просмотр изображения">
+          Закрыть (Esc)
+        </button>
+        <img src="" alt="" id="lightboxImg" class="lightbox-img" referrerpolicy="no-referrer" />
+        <p id="lightboxCaption" class="lightbox-caption"></p>
+      </div>
+    </div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
